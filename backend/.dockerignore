@@ -1,0 +1,24 @@
+# Node modules - they're reinstalled in the image
+node_modules
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+
+# Environment files (never bake secrets into image)
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# IDE/config files
+.vscode
+*.swp
+*.swo
