@@ -98,7 +98,7 @@ function MessageContainer({ onBackUser }) {
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
             </div>
             <h3 className="mt-6 text-3xl font-semibold text-white">
-              Welcome back friends, {authUser?.fullname?.split(" ")[0]}
+              Devops, {authUser?.fullname?.split(" ")[0]}
             </h3>
             <p className="mx-auto mt-2 max-w-md text-sm text-white/60">
               Pick a contact on the left to resume an existing conversation or start a new one.
